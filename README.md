@@ -1,5 +1,7 @@
 # Night Shift — Third Person Stealth Prototype
 
+![A guard's view cone drawn on the ground of the depot](Docs/Screenshots/03_guard_cone.png)
+
 A playable stealth prototype built in **Unity 6000.5.8f1** (Built-in Render Pipeline).
 You infiltrate a guarded depot at night, avoid patrols, cameras and sentries, and reach the extraction
 point in the north of the map.
@@ -101,6 +103,8 @@ editor tools under the **Stealth** menu, so it can be rebuilt at any time:
 ---
 
 ## The level
+
+![Top down map of the depot with every view cone visible](Docs/Screenshots/01_overview.png)
 
 ```
                       NORTH  (extraction point, green beacon)
