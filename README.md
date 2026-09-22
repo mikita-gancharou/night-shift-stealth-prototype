@@ -43,9 +43,16 @@ the end screen (`PERFECT GHOST`, `GHOST`, `SHADOW`, `SLOPPY`).
 
 ---
 
-## Running the build
+## Getting a build
 
-The Windows build is in `Build/Windows/NightShift.exe`. Run it, press **START MISSION** and play.
+The compiled player is not committed (`Build/` is ignored). To produce one, either use
+**File > Build Settings > Build** in the editor, or run the pipeline from the command line:
+
+```
+Unity.exe -batchmode -quit -projectPath . -executeMethod Stealth.EditorTools.StealthPipeline.BuildWindowsPlayer
+```
+
+It writes `Build/Windows/NightShift.exe` (Windows x64, ~93 MB). Run it, press **START MISSION** and play.
 
 ## Opening the project
 
