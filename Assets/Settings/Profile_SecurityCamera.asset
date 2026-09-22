@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3cf453ddc08e524fa148cb54c6f4092, type: 3}
+  m_Name: Profile_SecurityCamera
+  m_EditorClassIdentifier: Stealth.Runtime::Stealth.Enemies.GuardProfile
+  DisplayName: Security Camera
+  BodyColor: {r: 0.22745098, g: 0.2509804, b: 0.2901961, a: 1}
+  PatrolSpeed: 1.9
+  InvestigateSpeed: 3.1
+  ChaseSpeed: 4.7
+  AngularSpeed: 420
+  Acceleration: 14
+  ViewDistance: 17
+  ViewAngle: 42
+  ProximityRadius: 1
+  HearingRadius: 0
+  NoiseSensitivity: 0
+  SuspiciousDuration: 3
+  InvestigateLookTime: 2.6
+  SearchDuration: 7
+  LoseSightTime: 2.5
+  CatchDistance: 1.4
+  AlertRadius: 30
+  CanChase: 0
+  ScanAngle: 70
+  ScanSpeed: 26

@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d08ee37b1afe5164a9be072b0293beca, type: 3}
+  m_Name: SoundLibrary
+  m_EditorClassIdentifier: Stealth.Runtime::Stealth.Audio.SoundLibrary
+  _entries:
+  - Id: 0
+    Clips:
+    - {fileID: 8300000, guid: d12525c1f73e7444aa1494be32cf15f0, type: 3}
+    Volume: 0.7
+  - Id: 1
+    Clips:
+    - {fileID: 8300000, guid: 1360e80c5a56f9b46b7468212ae8f91c, type: 3}
+    Volume: 0.9
+  - Id: 2
+    Clips:
+    - {fileID: 8300000, guid: 9d03a9c22b939ec40a124f82115bc07b, type: 3}
+    Volume: 0.7
+  - Id: 3
+    Clips:
+    - {fileID: 8300000, guid: 30c9e450011c86846b2d26a942c0aec0, type: 3}
+    Volume: 0.8
+  - Id: 4
+    Clips:
+    - {fileID: 8300000, guid: 1b299864d5ffa5d4389012f7072c0475, type: 3}
+    Volume: 0.8
+  - Id: 5
+    Clips:
+    - {fileID: 8300000, guid: c72358d8e5054aa49a9d9fd16cdf1d4a, type: 3}
+    Volume: 0.8
+  - Id: 6
+    Clips:
+    - {fileID: 8300000, guid: 3344f9a395b772341884fc449c461a14, type: 3}
+    Volume: 0.8
+  - Id: 7
+    Clips:
+    - {fileID: 8300000, guid: 05d6663dbc9a3bf4d8a5520e41ae46ae, type: 3}
+    Volume: 0.9
+  - Id: 8
+    Clips:
+    - {fileID: 8300000, guid: a7e77dac1c96fb24b8c393fb45df0d77, type: 3}
+    Volume: 1
+  - Id: 9
+    Clips:
+    - {fileID: 8300000, guid: 2451206e368dfaa4b871adef1813fe30, type: 3}
+    Volume: 0.8
+  - Id: 10
+    Clips:
+    - {fileID: 8300000, guid: a3113f62ab006a04b9da3f36ac22eca7, type: 3}
+    Volume: 0.9
+  - Id: 11
+    Clips:
+    - {fileID: 8300000, guid: b79a0404453e87f4f8a409e6bc8dab4f, type: 3}
+    Volume: 0.9
+  - Id: 12
+    Clips:
+    - {fileID: 8300000, guid: 294d3d1b80f45c64d9648cf77868c67a, type: 3}
+    Volume: 0.9
+  - Id: 13
+    Clips:
+    - {fileID: 8300000, guid: cf31c3a8ed158764f9774162580241a0, type: 3}
+    Volume: 0.7
+  - Id: 14
+    Clips:
+    - {fileID: 8300000, guid: 0db4820b8303b594c860cf7115e154dd, type: 3}
+    Volume: 0.5
+  _concreteSteps:
+  - {fileID: 8300000, guid: d4107f21e889945498b27993241e3729, type: 3}
+  - {fileID: 8300000, guid: d8c26675b7fdd1242acf2c5c21c978cf, type: 3}
+  - {fileID: 8300000, guid: 26363049548bff447bd25b05daa8ca9c, type: 3}
+  _gravelSteps:
+  - {fileID: 8300000, guid: c066cf5a880d29143bd95d77359f0ec6, type: 3}
+  - {fileID: 8300000, guid: a74c2c1bae9587446a79544758333d16, type: 3}
+  - {fileID: 8300000, guid: 7b4785619b0180c4f9fbf9f57b3ac2ce, type: 3}
+  _metalSteps:
+  - {fileID: 8300000, guid: 02d5290bafd2f274595e2115bba127f8, type: 3}
+  - {fileID: 8300000, guid: 525306d5cc1227346817a78cfff7bf9b, type: 3}
+  - {fileID: 8300000, guid: ec7ae0463e0b1b44fa08de78076d989e, type: 3}
+  _crouchSteps:
+  - {fileID: 8300000, guid: 8111f7f5587ab414eb7c333a5d73eecd, type: 3}
+  - {fileID: 8300000, guid: 8c42175120ff74b4ba3f8cef96724690, type: 3}
+  - {fileID: 8300000, guid: ec9c957ecf2f3cf48bba45ca35e160cf, type: 3}
+  Ambient: {fileID: 8300000, guid: b38466ebab8f950438e94ba0d906ca9e, type: 3}
+  Tension: {fileID: 8300000, guid: 4ef3bf13ae26ca340bd9531d2d6f86f3, type: 3}
+  Chase: {fileID: 8300000, guid: 7060978be9549964d970c92fa93342e1, type: 3}
